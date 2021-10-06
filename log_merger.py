@@ -16,7 +16,6 @@ def _parse_args() -> argparse.Namespace:
     parser.add_argument(
         "input_path",
         type=str,
-        # dest='input_dirs',
         help="paths to dir with generated logs",
         nargs=2,
     )
